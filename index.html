@@ -2,160 +2,130 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Developer Portfolio</title>
+  <title>Prajeeth S - Student Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="logo">DevPortfolio</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero">
-    <p class="greeting">Hi, I'm</p>
+  <div class="header">
     <h1>Prajeeth S</h1>
-    <p class="tagline">Electronics & Communication Engineering Student | Aspiring Software Developer</p>
-    <div class="hero-buttons">
-      <a href="#projects" class="btn primary">View Projects</a>
-      <a href="#contact" class="btn secondary">Get In Touch</a>
+    <p>Electronics &amp; Communication Engineering Student | Software Aspirant</p>
+    <div class="nav-links">
+      <a href="#about">About</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#education">Education</a> |
+      <a href="#contact">Contact</a>
     </div>
-  </header>
+  </div>
 
-  <main>
-    <!-- About Section -->
-    <section id="about" class="section">
-      <h2 class="section-title">About Me</h2>
-      <p class="about-text">
-       I am Prajeeth, Pursuing my B.E. in ECE at Velalar College of Engineering and Technology with a 7.34 CGPA. My focus is on web development, where I build clean, responsive websites using HTML and CSS. I enjoy turning layouts into working web pages through hands-on projects. I am now looking to start my career as an entry-level software engineer and contribute to real-world development teams.
+  <hr>
+
+  <div class="container">
+
+    <!-- About me-->
+    <div id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am an undergraduate student in Electronics and Communication Engineering with a solid foundation in Core Java, Object-Oriented Programming, and web development fundamentals. I focus on clean code and reliable logic, actively seeking internships and entry-level software opportunities.
       </p>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="section">
-      <h2 class="section-title">Education</h2>
-      <div class="card timeline-card">
-        <div class="timeline-header">
-          <h3>B.E Electronics and Communication Engineering</h3>
-          <span class="date">2023 – 2027</span>
-        </div>
-        <p class="institution">Velalar College Of Engineering And Technology</p>
-        <p class="meta">Cumulative GPA: <strong>7.34 / 10.0</strong></p>
-      </div>
-
-      <div class="card timeline-card">
-        <div class="timeline-header">
-          <h3>Higher Secondary Certificate (HSC)</h3>
-          <span class="date">2022 - 2023</span>
-        </div>
-        <p class="institution">Sri Aanoor Vidyalaya Matric Hr Sec School</p>
-        <p class="meta">Percentage: <strong>70.33%</strong></p>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-      <h2 class="section-title">Technical Skills</h2>
-      <div class="skills-grid">
-        <div class="card skill-category">
-          <h3>Web Development</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-        </div>
-        <div class="card skill-category">
-          <h3>Programming Languages</h3>
-          <ul>
-            <li>Java(core Java,oop)</li>
-          </ul>
-        </div>
-        <div class="card skill-category">
-          <h3>Tools & Concepts</h3>
-          <ul>
-            <li>Git & GitHub</li>
-            <li>VS Code</li>
-
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-grid">
-        <!-- Project 1 -->
-        <div class="card project-card">
-          <h3>Personal Portfolio Website</h3>
-          <p>A responsive, single-page developer portfolio showcasing academic milestones, skills, and projects built using semantic HTML5 and clean CSS.</p>
-          <div class="tech-tags">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>GitHub Pages</span>
-          </div>
-          <div class="project-links">
-            <a href="#" class="link">Live Demo &rarr;</a>
-            <a href="#" class="link">GitHub &rarr;</a>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="card project-card">
-          <h3>Java Console Utility / Mini-Project</h3>
-          <p>A command-line application implementing object-oriented concepts like inheritance, encapsulation, and exception handling.</p>
-          <div class="tech-tags">
-            <span>Core Java</span>
-            <span>OOP</span>
-          </div>
-          <div class="project-links">
-            <a href="#" class="link">GitHub &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications" class="section">
-      <h2 class="section-title">Certifications</h2>
-      <div class="cert-grid">
-        <div class="card cert-card">
-          <h3>HTML and CSS Certification</h3>
-          <p class="cert-issuer">Issued by: <strong>GUVI</strong></p>
-          <span class="cert-date">August 2026</span>
-        </div>
-        <div class="card cert-card">
-          <h3>AI/ML[Internship]</h3>
-          <p class="cert-issuer">Issued by: <strong>Cube Corpsol</strong></p>
-          <span class="cert-date">December 2024</span>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Contact & Footer -->
-  <footer id="contact">
-    <div class="footer-container">
-      <h2>Let's Connect</h2>
-      <p>Feel free to reach out for opportunities or collaborative projects.</p>
-      <div class="contact-links">
-        <a href="mailto:yourname@example.com" class="btn primary">Email Me</a>
-        <a href="https://github.com/prajeeth-s-2005" target="_blank" rel="noopener noreferrer" class="btn secondary">GitHub</a>
-        <a href="https://www.linkedin.com/in/prajeeth--s" target="_blank" rel="noopener noreferrer" class="btn secondary">LinkedIn</a>
-      </div>
-      <p class="copyright">&copy; 2026 Prajeeth. Built with HTML & CSS.</p>
     </div>
-  </footer>
+
+    <!-- my Skills-->
+    <div id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <table class="skills-table">
+        <tr>
+          <th>Category</th>
+          <th>Technologies &amp; Tools</th>
+        </tr>
+        <tr>
+          <td>Languages</td>
+          <td>Java (Core Java, OOPs), Basic SQL</td>
+        </tr>
+        <tr>
+          <td>Web Technologies</td>
+          <td>HTML5, CSS3</td>
+        </tr>
+        <tr>
+          <td>Tools &amp; Platforms</td>
+          <td>Git, GitHub, VS Code</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- my Projects -->
+    <div id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="project-box">
+        <h3>1. Personal Portfolio Website</h3>
+        <p><strong>Technologies:</strong> HTML5, CSS3, GitHub Pages</p>
+        <p>A structured, responsive website built from scratch to present my academic credentials, programming projects, and contact channels. Deployed and hosted via GitHub Pages.</p>
+        <p>
+          <a href="https://github.com/prajeeth-s-2005/portfolio" target="_blank" rel="noopener noreferrer">View Repository Code &rarr;</a>
+        </p>
+      </div>
+
+      
+
+    <!-- Education -->
+    <div id="education" class="section">
+      <h2>Education</h2>
+      <table class="education-table">
+        <thead>
+          <tr>
+            <th>Course / Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>Score / CGPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>B.E. Electronics &amp; Communication Engineering</strong></td>
+            <td>Velalar College of Engineering and Technology, Thindal</td>
+            <td>2023 - 2027</td>
+            <td>7.34 CGPA</td>
+          </tr>
+          <tr>
+            <td><strong>Higher Secondary Certificate (HSC)</strong></td>
+            <td>Sri Aanoor Vidyalaya Matric Hr. Sec. School, Muthur</td>
+            <td>Completed 2023</td>
+            <td>70.33%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Certificate -->
+<div id="certifications" class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>
+          <strong>AI/ML Intern</strong> &mdash; Cube Corpsol (December 2024)<br>
+          Completed internship training on Artificial Intelligence and Machine Learning concepts and applications.
+        </li>
+        <li>
+          <strong>Web Development Fundamentals (HTML &amp; CSS)</strong> &mdash; GUVI Certification (August 2026)
+        </li>
+      </ul>
+    </div>
+
+    <!-- Contact info -->
+    <div id="contact" class="section">
+      <h2>Get In Touch</h2>
+      <p>Feel free to reach out for internship roles, project discussions, or placement opportunities.</p>
+      <p><strong>Email:</strong> <a href="mailto:prajeeth70@gmail.com">prajeeth70@gmail.com</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/prajeeth-s-2005" target="_blank" rel="noopener noreferrer">github.com/prajeeth-s-2005</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prajeeth--s" target="_blank" rel="noopener noreferrer">linkedin.com/in/prajeeth--s</a></p>
+    </div>
+
+  </div>
+
+  <hr>
+  <div class="footer">
+    <p>&copy; 2026 Prajeeth S. Hosted on GitHub Pages.</p>
+  </div>
+
 </body>
-</html> 
+</html>
